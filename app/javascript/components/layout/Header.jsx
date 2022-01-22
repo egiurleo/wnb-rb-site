@@ -57,14 +57,17 @@ const Header = () => {
                     <nav className={`nav${menuState.className}`}>
                         <div className="menu">
                             <ul>
-                                <li>
+                                {/* <li>
                                     <a href="/">Upcoming Meetup</a>
                                 </li>
                                 <li>
                                     <a href="/meetups">Past Meetups</a>
+                                </li> */}
+                                <li>
+                                    <a href="/jobs">Job Board</a>
                                 </li>
                                 <li>
-                                    <a href="/sponsor-us"> Sponsor Us</a>
+                                    <a href="/sponsor-us">Sponsor Us</a>
                                 </li>
                             </ul>
                         </div>

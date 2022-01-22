@@ -5,25 +5,9 @@ import Twitter from 'components/icons/Twitter';
 
 import 'stylesheets/footer.scss';
 
-/* TODO: re-enable this rule after all links are in place */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-
 const Footer = () => (
     <footer className="footer">
         <div className="footer-left">
-            <div className="footer-col">
-                <p className="footer-col-item footer-col-title">WNB.rb Meetup</p>
-                <a className="footer-col-item" href="#">
-                    Upcoming Meetup
-                </a>
-                <a className="footer-col-item" href="/meetups">
-                    Past Meetups
-                </a>
-                <a className="footer-col-item" href="#">
-                    Give a Talk
-                </a>
-            </div>
-
             <div className="footer-col">
                 <p className="footer-col-item footer-col-title">For Members</p>
                 <a
@@ -54,7 +38,7 @@ const Footer = () => (
 
             <div className="footer-col">
                 <p className="footer-col-item footer-col-title">For Sponsors</p>
-                <a className="footer-col-item" href="#">
+                <a className="footer-col-item" href="/sponsor-us">
                     Sponsor Us
                 </a>
             </div>
@@ -62,7 +46,7 @@ const Footer = () => (
 
         <div className="footer-right">
             <div className="social-links">
-                <a href="#">
+                <a href="mailto:organizers@wnb-rb.dev">
                     <Email className="social-icon" />
                 </a>
                 <a href="https://twitter.com/wnb_rb" target="_blank" rel="noopener noreferrer">
