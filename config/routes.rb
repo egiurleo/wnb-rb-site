@@ -28,6 +28,8 @@ Rails.application.routes.draw do
     resources :jobs, only: [:index] do
       collection { post 'authenticate' }
     end
+
+    resources :donations, only: [:create]
   end
 
   namespace :admin do
