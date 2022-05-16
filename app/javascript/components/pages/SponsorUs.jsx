@@ -52,7 +52,7 @@ const SponsorUsWidget = () => {
     const [selectedLevel, setSelectedLevel] = useState(sponsorCardData[0].type);
 
     return (
-        <div className="w-full flex flex-row justify-center mt-32 flex-wrap">
+        <div className="mt-32 w-full flex flex-row justify-center flex-wrap">
             {sponsorCardData.map((card) => {
                 return (
                     selectedLevel === card.type && (
@@ -67,7 +67,7 @@ const SponsorUsWidget = () => {
                 );
             })}
 
-            <div className="flex flex-col justify-between h-max mt-5 md:mt-0 md:w-auto md:ml-7">
+            <div className="flex flex-col h-max mt-5 md:mt-0 md:w-auto md:ml-7">
                 {sponsorCardData.map((card) => {
                     return (
                         <SponsorshipOption

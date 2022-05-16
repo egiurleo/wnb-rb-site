@@ -15,8 +15,9 @@ const SponsorCard = ({ type, amount, returns, icon }) => {
                     <h3 className="text-xl font-bold">{type} Sponsor</h3>
                     <div className="flex flex-row items-center">
                         <p className={`text-lg ${type.toLowerCase()}-color`}>${amount}</p>
-                        <p className="text-sm ml-2 text-wnbrb-gray-medium">/6 months</p>
+                        <p className="text-sm ml-2">/6 months</p>
                     </div>
+                    <p className="text-sm text-wnbrb-gray-medium">+ 10% first year salary</p>
                 </div>
             </div>
             <div className="my-6 h-44">
@@ -31,7 +32,12 @@ const SponsorCard = ({ type, amount, returns, icon }) => {
                 </ul>
             </div>
             <Button type={`${type.toLowerCase()} justify-center`}>
-                <a className="place-self-start" href="mailto: organizers@wnb-rb.dev">
+                <a
+                    className="place-self-start"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://calendly.com/wnb-rb-organizers/sponsor-us"
+                >
                     Become {type === 'Emerald' ? 'an' : 'a'} {type} sponsor
                 </a>
             </Button>

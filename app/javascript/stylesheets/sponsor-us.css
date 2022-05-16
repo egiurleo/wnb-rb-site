@@ -62,8 +62,7 @@
     border-white
     hover:border-2
     hover:border-wnbrb-orange-default
-    mt-3
-    sm:mt-0;
+    mt-4;
 }
 
 .sponsorship-option.selected {

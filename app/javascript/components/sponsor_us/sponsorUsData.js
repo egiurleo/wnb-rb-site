@@ -2,7 +2,6 @@ import React from 'react';
 import Ruby from 'components/icons/Ruby';
 import Emerald from 'components/icons/Emerald';
 import Sapphire from 'components/icons/Sapphire';
-import Opal from 'components/icons/Opal';
 import AboutUsSection from './AboutUsSection';
 import WhySponsorUsSection from './WhySponsorUsSection';
 
@@ -34,12 +33,6 @@ export const sponsorCardData = [
         type: 'Sapphire',
         returns: ['Post on our jobs board', 'Logo featured on our site'],
         amount: '1,000',
-    },
-    {
-        icon: Opal,
-        type: 'Opal',
-        returns: ['Post on our jobs board'],
-        amount: '500',
     },
 ];
 
